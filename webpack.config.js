@@ -35,7 +35,7 @@ module.exports = {
         },
     },
     output: {
-        path: path.resolve(__dirname, 'golden'),
+        path: path.resolve(__dirname, 'docs'),
         filename: 'Source/[name].js',
         publicPath: process.env.PUBLIC_PATH,
         clean: true,
