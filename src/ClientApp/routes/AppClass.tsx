@@ -124,37 +124,37 @@ export default class App extends React.Component<any, any> {
 
       let errorName = "";
       ////////////////////////////////////////////
-      // await CoreEngineClient.Instance.Initialize();
+      await CoreEngineClient.Instance.Initialize();
 
-      // this.setState({
-      //   ...this.state,
-      //   isLoading: false,
-      //   errorName: errorName,
-      // });
+      this.setState({
+        ...this.state,
+        isLoading: false,
+        errorName: errorName,
+      });
 
-      try {
-        const data = await BaseService.Instance.checkUUID(
-          getValueFromURL("uuid") ? getValueFromURL("uuid") : ""
-        );
-        if (data.success) {
-          await CoreEngineClient.Instance.Initialize();
-        } else {
-          errorName = data.message;
-        }
-        this.setState({
-          ...this.state,
-          isLoading: false,
-          errorName: errorName,
-          uuid: getValueFromURL("uuid"),
-        });
-      } catch (error) {
-        error = "Lỗi hệ thống. Vui lòng thử lại";
-        this.setState({
-          ...this.state,
-          isLoading: false,
-          errorName: errorName,
-        });
-      }
+      // try {
+      //   const data = await BaseService.Instance.checkUUID(
+      //     getValueFromURL("uuid") ? getValueFromURL("uuid") : ""
+      //   );
+      //   if (data.success) {
+      //     await CoreEngineClient.Instance.Initialize();
+      //   } else {
+      //     errorName = data.message;
+      //   }
+      //   this.setState({
+      //     ...this.state,
+      //     isLoading: false,
+      //     errorName: errorName,
+      //     uuid: getValueFromURL("uuid"),
+      //   });
+      // } catch (error) {
+      //   error = "Lỗi hệ thống. Vui lòng thử lại";
+      //   this.setState({
+      //     ...this.state,
+      //     isLoading: false,
+      //     errorName: errorName,
+      //   });
+      // }
     };
     init();
   }
