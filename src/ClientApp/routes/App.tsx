@@ -193,32 +193,32 @@ function App(props: any)
             Hút sữa sẵn sàng dinh dưỡng cùng Abbott Grow Gold
             <img
               className="absolute top-[45px] left-[45px]"
-              src="/Assets/images/border-text.png"
+              src="Assets/images/border-text.png"
               alt="Hút sữa sẵn sàng dinh dưỡng cùng Abbott Grow Gold"
             />
           </p>
           <img
             className="absolute -top-[50px] left-0"
-            src="/Assets/images/element-group.png"
+            src="Assets/images/element-group.png"
             alt="Hút sữa sẵn sàng dinh dưỡng cùng Abbott Grow Gold"
           />
           <div className=" relative mb-10">
             {stage.pathImageActive ? (
               <img
                 className="absolute -top-[0px] left-0 z-10"
-                src="/Assets/images/label-2.png"
+                src="Assets/images/label-2.png"
                 alt="Hút sữa sẵn sàng dinh dưỡng cùng Abbott Grow Gold"
               />
             ) : (
               <img
                 className="absolute -top-[130px] left-0 z-10"
-                src="/Assets/images/label.png"
+                src="Assets/images/label.png"
                 alt="Hút sữa sẵn sàng dinh dưỡng cùng Abbott Grow Gold"
               />
             )}
             <img
               className="absolute bottom-[300px] right-0 z-10"
-              src="/Assets/images/book1.png"
+              src="Assets/images/book1.png"
               alt="Hút sữa sẵn sàng dinh dưỡng cùng Abbott Grow Gold"
             />
             {stage.step == 4 || stage.step == 5 || stage.pathImageActive ? (
@@ -226,28 +226,28 @@ function App(props: any)
             ) : (
               <img
                 className="absolute -bottom-[10px] right-0 z-10"
-                src="/Assets/images/toy.png"
+                src="Assets/images/toy.png"
                 alt="Hút sữa sẵn sàng dinh dưỡng cùng Abbott Grow Gold"
               />
             )}
             <div id="canvas-wrapper">
               <img
                 className="absolute -bottom-2 -left-2 z-0"
-                src="/Assets/images/yard.png"
+                src="Assets/images/yard.png"
                 alt="Hút sữa sẵn sàng dinh dưỡng cùng Abbott Grow Gold"
               />
 
               <img
                 className={`absolute w-[29%] bottom-[10%] -left-0 z-0 ${ stage.step == 1 ? "" : "invisible"
                   }`}
-                src="/Assets/images/hop_sua.png"
+                src="Assets/images/hop_sua.png"
                 alt="Hút sữa sẵn sàng dinh dưỡng cùng Abbott Grow Gold"
               />
               {/* <img
                 className={`absolute w-[28%]  bottom-[7%] left-[31%] z-0 ${
                   stage.step == 1 ? "" : "invisible"
                 }`}
-                src="/Assets/images/hop_sua_part.png"
+                src="Assets/images/hop_sua_part.png"
                 alt="Hút sữa sẵn sàng dinh dưỡng cùng Abbott Grow Gold"
               /> */}
               <Stage2 stage={stage} />
@@ -305,7 +305,7 @@ function App(props: any)
                 {stage.step == 4 ? (
                   <div className="relative" onClick={handleCaptureImage}>
                     <img
-                      src="/Assets/images/camera-icon.png"
+                      src="Assets/images/camera-icon.png"
                       alt="Hút sữa sẵn sàng dinh dưỡng cùng Abbott Grow Gold"
                     />
                     <p className="absolute top-[100%] left-[50%] -translate-x-1/2 text-red-color text-4xl font-black w-full text-center whitespace-nowrap ">
@@ -323,7 +323,7 @@ function App(props: any)
                     >
                       <img
                         className="w-[38px]"
-                        src="/Assets/images/upload-icon.png"
+                        src="Assets/images/upload-icon.png"
                         alt="Hút sữa sẵn sàng dinh dưỡng cùng Abbott Grow Gold"
                       />{" "}
                       Up Ảnh
@@ -344,7 +344,7 @@ function App(props: any)
                   >
                     Chia sẻ{" "}
                     <img
-                      src="/Assets/images/fb-icon.png"
+                      src="Assets/images/fb-icon.png"
                       alt="Hút sữa sẵn sàng dinh dưỡng cùng Abbott Grow Gold"
                     />
                   </button>

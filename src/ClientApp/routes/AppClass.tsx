@@ -395,7 +395,7 @@ export default class App extends React.Component<any, any> {
         <Layout>
           <img
             className="hidden w-auto xl:w-[70%] md:block absolute top-[6%] left-0"
-            src="/Assets/images/element-group.png"
+            src="Assets/images/element-group.png"
             alt="Hút sữa sẵn sàng dinh dưỡng cùng Abbott Grow Gold"
           />
           <div
@@ -409,7 +409,7 @@ export default class App extends React.Component<any, any> {
                   Hút sữa
                   <img
                     className="absolute -bottom-[3px] left-[0px]"
-                    src="/Assets/images/border-text.png"
+                    src="Assets/images/border-text.png"
                     alt="Hút sữa sẵn sàng dinh dưỡng cùng Abbott Grow Gold"
                   />
                 </span>{" "}
@@ -425,7 +425,7 @@ export default class App extends React.Component<any, any> {
                   THÍCH NHẤT
                   <img
                     className="absolute -bottom-[3px] left-[0px]"
-                    src="/Assets/images/border-text.png"
+                    src="Assets/images/border-text.png"
                     alt="CHỌN VẬT DỤNG ĐI MẪU GIÁO MÀ BÉ THÍCH NHẤT NHA!"
                   />
                 </span>{" "}
@@ -441,7 +441,7 @@ export default class App extends React.Component<any, any> {
                   THÍCH NHẤT
                   <img
                     className="absolute -bottom-[3px] left-[0px]"
-                    src="/Assets/images/border-text.png"
+                    src="Assets/images/border-text.png"
                     alt="CHỌN VẬT DỤNG ĐI MẪU GIÁO MÀ BÉ THÍCH NHẤT NHA!"
                   />
                 </span>{" "}
@@ -457,7 +457,7 @@ export default class App extends React.Component<any, any> {
                   THEO CÁCH RIÊNG
                   <img
                     className="absolute -bottom-[3px] left-[0px]"
-                    src="/Assets/images/border-text.png"
+                    src="Assets/images/border-text.png"
                     alt="CHỌN VẬT DỤNG ĐI MẪU GIÁO MÀ BÉ THÍCH NHẤT NHA!"
                   />
                 </span>{" "}
@@ -468,7 +468,7 @@ export default class App extends React.Component<any, any> {
             )}
             <img
               className="md:hidden absolute -top-[50px] left-0"
-              src="/Assets/images/element-group.png"
+              src="Assets/images/element-group.png"
               alt="Hút sữa sẵn sàng dinh dưỡng cùng Abbott Grow Gold"
             />
             <div className="w-full md:w-[60%] mx-auto relative mb-4  overflow-hidden xl:overflow-visible">
@@ -476,13 +476,13 @@ export default class App extends React.Component<any, any> {
                 this.state.pathImageActive ? (
                   <img
                     className="absolute w-[50px] -top-[0px] xl:-top-[9%] left-0 z-20"
-                    src="/Assets/images/label-2.png"
+                    src="Assets/images/label-2.png"
                     alt="Hút sữa sẵn sàng dinh dưỡng cùng Abbott Grow Gold"
                   />
                 ) : (
                   <img
                     className="absolute w-[50px] -top-[0px] xl:-top-[9%] left-0 z-20"
-                    src="/Assets/images/label.png"
+                    src="Assets/images/label.png"
                     alt="Hút sữa sẵn sàng dinh dưỡng cùng Abbott Grow Gold"
                   />
                 )
@@ -491,7 +491,7 @@ export default class App extends React.Component<any, any> {
               )}
               <img
                 className="absolute w-[19%] bottom-[100px] -right-[6%] z-20"
-                src="/Assets/images/book1.png"
+                src="Assets/images/book1.png"
                 alt="Hút sữa sẵn sàng dinh dưỡng cùng Abbott Grow Gold"
               />
               {this.state.step == 4 ||
@@ -501,7 +501,7 @@ export default class App extends React.Component<any, any> {
               ) : (
                 <img
                   className="absolute w-[100px] -bottom-[4px] lg:bottom-0 right-0 lg:right-[4%] z-10"
-                  src="/Assets/images/toy.png"
+                  src="Assets/images/toy.png"
                   alt="Hút sữa sẵn sàng dinh dưỡng cùng Abbott Grow Gold"
                 />
               )}
@@ -519,13 +519,13 @@ export default class App extends React.Component<any, any> {
 
                 <img
                   className="absolute -bottom-2 -left-1 z-0"
-                  src="/Assets/images/yard.png"
+                  src="Assets/images/yard.png"
                   alt="Hút sữa sẵn sàng dinh dưỡng cùng Abbott Grow Gold"
                 />
                 {this.state.step == 1 ? (
                   <img
                     className={`absolute w-[25%] bottom-[10%] -left-0 z-0 `}
-                    src="/Assets/images/hop_sua.png"
+                    src="Assets/images/hop_sua.png"
                     alt="Hút sữa sẵn sàng dinh dưỡng cùng Abbott Grow Gold"
                   />
                 ) : (
@@ -642,7 +642,7 @@ export default class App extends React.Component<any, any> {
                       onClick={this.handleCaptureImage}
                     >
                       <img
-                        src="/Assets/images/camera-icon.png"
+                        src="Assets/images/camera-icon.png"
                         alt="Hút sữa sẵn sàng dinh dưỡng cùng Abbott Grow Gold"
                       />
                       <p className="absolute top-[100%] left-[50%] -translate-x-1/2 text-red-color  font-black w-full text-center whitespace-nowrap ">
@@ -660,7 +660,7 @@ export default class App extends React.Component<any, any> {
                       >
                         <img
                           className="w-[20px]"
-                          src="/Assets/images/upload-icon.png"
+                          src="Assets/images/upload-icon.png"
                           alt="Hút sữa sẵn sàng dinh dưỡng cùng Abbott Grow Gold"
                         />{" "}
                         Up Ảnh
@@ -683,7 +683,7 @@ export default class App extends React.Component<any, any> {
                       Chia sẻ{" "}
                       <img
                         className="w-[20px]"
-                        src="/Assets/images/fb-icon.png"
+                        src="Assets/images/fb-icon.png"
                         alt="Hút sữa sẵn sàng dinh dưỡng cùng Abbott Grow Gold"
                       />
                     </button>

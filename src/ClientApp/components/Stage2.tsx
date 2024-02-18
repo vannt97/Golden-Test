@@ -4,36 +4,36 @@ import { EventType } from "../../Codebase/Types/EventType";
 
 const objects = [
   {
-    imgDefault: "/Assets/images/balo.png",
-    imgHighlight: "/Assets/images/balo-highlight-2.png",
+    imgDefault: "Assets/images/balo.png",
+    imgHighlight: "Assets/images/balo-highlight-2.png",
     left: 75,
     top: "7%",
     eventType: EventType.BA_LO,
   },
   {
-    imgDefault: "/Assets/images/non.png",
-    imgHighlight: "/Assets/images/non-highlight-2.png",
+    imgDefault: "Assets/images/non.png",
+    imgHighlight: "Assets/images/non-highlight-2.png",
     left: 252,
     top: "25%",
     eventType: EventType.NON,
   },
   {
-    imgDefault: "/Assets/images/2-hop-sua.png",
-    imgHighlight: "/Assets/images/2-hop-sua-highlight-2.png",
+    imgDefault: "Assets/images/2-hop-sua.png",
+    imgHighlight: "Assets/images/2-hop-sua-highlight-2.png",
     left: 410,
     top: "41%",
     eventType: EventType.SUA,
   },
   {
-    imgDefault: "/Assets/images/binh-nuoc.png",
-    imgHighlight: "/Assets/images/binh-nuoc-highlight-2.png",
+    imgDefault: "Assets/images/binh-nuoc.png",
+    imgHighlight: "Assets/images/binh-nuoc-highlight-2.png",
     left: 587,
     top: "59%",
     eventType: EventType.BINH_NUOC,
   },
   {
-    imgDefault: "/Assets/images/huou-bong.png",
-    imgHighlight: "/Assets/images/huong-bong-highlight-2.png",
+    imgDefault: "Assets/images/huou-bong.png",
+    imgHighlight: "Assets/images/huong-bong-highlight-2.png",
     left: 750,
     top: "76.5%",
     eventType: EventType.HUOU_BONG,
@@ -99,7 +99,7 @@ function Stage2(props: any) {
     >
       <img
         className=""
-        src="/Assets/images/cabinet-group.png"
+        src="Assets/images/cabinet-group.png"
         alt="Hút sữa sẵn sàng dinh dưỡng cùng Abbott Grow Gold"
       />
       {renderObjects()}
@@ -107,45 +107,45 @@ function Stage2(props: any) {
         onMouseLeave={handleMouseOut}
         onMouseEnter={handleHoverObject}
         className="absolute w-[180px]  transition top-[75px] left-[85px] z-0"
-        src="/Assets/images/balo.png"
-        data-highlight="/Assets/images/balo-highlight.png"
-        data-default="/Assets/images/balo.png"
+        src="Assets/images/balo.png"
+        data-highlight="Assets/images/balo-highlight.png"
+        data-default="Assets/images/balo.png"
         alt="Hút sữa sẵn sàng dinh dưỡng cùng Abbott Grow Gold"
       />
       <img
         onMouseLeave={handleMouseOut}
         onMouseEnter={handleHoverObject}
         className="absolute w-[180px]   transition top-[252px] left-[85px] z-0"
-        src="/Assets/images/non.png"
-        data-highlight="/Assets/images/non-highlight.png"
-        data-default="/Assets/images/non.png"
+        src="Assets/images/non.png"
+        data-highlight="Assets/images/non-highlight.png"
+        data-default="Assets/images/non.png"
         alt="Hút sữa sẵn sàng dinh dưỡng cùng Abbott Grow Gold"
       />
       <img
         onMouseLeave={handleMouseOut}
         onMouseEnter={handleHoverObject}
         className="absolute w-[180px]   transition top-[410px] left-[85px] z-0"
-        src="/Assets/images/2-hop-sua.png"
-        data-highlight="/Assets/images/2-hop-sua-highlight.png"
-        data-default="/Assets/images/2-hop-sua.png"
+        src="Assets/images/2-hop-sua.png"
+        data-highlight="Assets/images/2-hop-sua-highlight.png"
+        data-default="Assets/images/2-hop-sua.png"
         alt="Hút sữa sẵn sàng dinh dưỡng cùng Abbott Grow Gold"
       />
       <img
         onMouseLeave={handleMouseOut}
         onMouseEnter={handleHoverObject}
         className="absolute w-[180px]   transition top-[587px] left-[85px] z-0"
-        src="/Assets/images/binh-nuoc.png"
-        data-default="/Assets/images/binh-nuoc.png"
-        data-highlight="/Assets/images/binh-nuoc-highlight.png"
+        src="Assets/images/binh-nuoc.png"
+        data-default="Assets/images/binh-nuoc.png"
+        data-highlight="Assets/images/binh-nuoc-highlight.png"
         alt="Hút sữa sẵn sàng dinh dưỡng cùng Abbott Grow Gold"
       />
       <img
         onMouseLeave={handleMouseOut}
         onMouseEnter={handleHoverObject}
         className="absolute w-[180px]   transition top-[750px] left-[85px] z-0"
-        src="/Assets/images/huou-bong.png"
-        data-default="/Assets/images/huou-bong.png"
-        data-highlight="/Assets/images/huou-bong-highlight.png"
+        src="Assets/images/huou-bong.png"
+        data-default="Assets/images/huou-bong.png"
+        data-highlight="Assets/images/huou-bong-highlight.png"
         alt="Hút sữa sẵn sàng dinh dưỡng cùng Abbott Grow Gold"
       /> */}
     </div>

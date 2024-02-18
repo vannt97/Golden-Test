@@ -9,41 +9,41 @@ function Play() {
           Hút sữa sẵn sàng dinh dưỡng cùng Abbott Grow Gold
           <img
             className="absolute top-[45px] left-[45px]"
-            src="/Assets/images/border-text.png"
+            src="Assets/images/border-text.png"
             alt="Hút sữa sẵn sàng dinh dưỡng cùng Abbott Grow Gold"
           />
         </p>
         <img
           className="absolute -top-[50px] left-0"
-          src="/Assets/images/element-group.png"
+          src="Assets/images/element-group.png"
           alt="Hút sữa sẵn sàng dinh dưỡng cùng Abbott Grow Gold"
         />
 
         <div className=" relative mb-10">
           <img
             className="absolute -top-[130px] left-0 z-10"
-            src="/Assets/images/label.png"
+            src="Assets/images/label.png"
             alt="Hút sữa sẵn sàng dinh dưỡng cùng Abbott Grow Gold"
           />
           <img
             className="absolute bottom-[300px] right-0 z-10"
-            src="/Assets/images/book1.png"
+            src="Assets/images/book1.png"
             alt="Hút sữa sẵn sàng dinh dưỡng cùng Abbott Grow Gold"
           />
           <img
             className="absolute -bottom-[10px] right-0 z-10"
-            src="/Assets/images/toy.png"
+            src="Assets/images/toy.png"
             alt="Hút sữa sẵn sàng dinh dưỡng cùng Abbott Grow Gold"
           />
           <div id="canvas-wrapper">
             <img
               className="absolute -bottom-10 -left-6 z-0"
-              src="/Assets/images/yard.png"
+              src="Assets/images/yard.png"
               alt="Hút sữa sẵn sàng dinh dưỡng cùng Abbott Grow Gold"
             />
             <img
               className="absolute w-[300px] bottom-[30px] -left-[30px] z-0"
-              src="/Assets/images/GIRAFFE.png"
+              src="Assets/images/GIRAFFE.png"
               alt="Hút sữa sẵn sàng dinh dưỡng cùng Abbott Grow Gold"
             />
             <p className="absolute bottom-0 left-10 text-white text-2xl">

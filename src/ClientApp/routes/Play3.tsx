@@ -106,7 +106,7 @@ function Play3() {
             thích nhất
             <img
               className="absolute top-[100%] left-[0px]"
-              src="/Assets/images/border-text.png"
+              src="Assets/images/border-text.png"
               alt="Hút sữa sẵn sàng dinh dưỡng cùng Abbott Grow Gold"
             />
           </span>{" "}
@@ -114,40 +114,40 @@ function Play3() {
         </p>
         <img
           className="absolute -top-[50px] left-0"
-          src="/Assets/images/element-group.png"
+          src="Assets/images/element-group.png"
           alt="Hút sữa sẵn sàng dinh dưỡng cùng Abbott Grow Gold"
         />
 
         <div className=" relative mb-10">
           <img
             className="absolute -top-[130px] left-0 z-10"
-            src="/Assets/images/label.png"
+            src="Assets/images/label.png"
             alt="Hút sữa sẵn sàng dinh dưỡng cùng Abbott Grow Gold"
           />
           <img
             className="absolute bottom-[300px] right-0 z-10"
-            src="/Assets/images/book1.png"
+            src="Assets/images/book1.png"
             alt="Hút sữa sẵn sàng dinh dưỡng cùng Abbott Grow Gold"
           />
           <img
             className="absolute -bottom-[10px] right-0 z-10"
-            src="/Assets/images/toy.png"
+            src="Assets/images/toy.png"
             alt="Hút sữa sẵn sàng dinh dưỡng cùng Abbott Grow Gold"
           />
           <div id="canvas-wrapper">
             <img
               className="absolute -bottom-10 -left-6 z-0"
-              src="/Assets/images/yard.png"
+              src="Assets/images/yard.png"
               alt="Hút sữa sẵn sàng dinh dưỡng cùng Abbott Grow Gold"
             />
             <img
               className="absolute w-[200px] top-[80px] left-14 z-0"
-              src="/Assets/images/mon-hoc.png"
+              src="Assets/images/mon-hoc.png"
               alt="Hút sữa sẵn sàng dinh dưỡng cùng Abbott Grow Gold"
             />
             <img
               className="absolute w-[200px] top-[80px] right-14 z-0"
-              src="/Assets/images/tro-choi.png"
+              src="Assets/images/tro-choi.png"
               alt="Hút sữa sẵn sàng dinh dưỡng cùng Abbott Grow Gold"
             />
             {renderBtnsMonHoc()}

@@ -9,7 +9,7 @@ export default function Review(props: any) {
       </p>
       <img
         className="inline lg:hidden xl:hidden absolute -top-[50px] left-0 -z-1"
-        src="/Assets/images/element-group.png"
+        src="Assets/images/element-group.png"
         alt="Hút sữa sẵn sàng dinh dưỡng cùng Abbott Grow Gold"
       />
       <div id="bulletin-board" className="w-[80%] lg:w-[50%] xl:w-[45%]">
@@ -24,7 +24,7 @@ export default function Review(props: any) {
               <p className="flex items-center  font-bold mb-1 text-sm xl:text-base  ">
                 <img
                   className="me-2 w-[30px]"
-                  src="/Assets/images/trai-dat-icon.png"
+                  src="Assets/images/trai-dat-icon.png"
                   alt="chia sẻ ảnh bé lớn khôn khác biệt để nhận quà mẹ nhé"
                 />
                 <span className="text-blue-color me-1">Để chế độ </span> công
@@ -33,7 +33,7 @@ export default function Review(props: any) {
               <p className="flex items-center font-bold mb-1 text-sm xl:text-base ">
                 <img
                   className="me-2 w-[30px]"
-                  src="/Assets/images/hash-icon.png"
+                  src="Assets/images/hash-icon.png"
                   alt="chia sẻ ảnh bé lớn khôn khác biệt để nhận quà mẹ nhé"
                 />
                 <span>
@@ -46,7 +46,7 @@ export default function Review(props: any) {
               <p className="flex items-center  font-bold mb-1 text-sm xl:text-base  ">
                 <img
                   className="me-2 w-[30px]"
-                  src="/Assets/images/like-icon.png"
+                  src="Assets/images/like-icon.png"
                   alt="chia sẻ ảnh bé lớn khôn khác biệt để nhận quà mẹ nhé"
                 />
                 <span className="text-blue-color me-1">Tag thêm</span>3 người
@@ -58,12 +58,12 @@ export default function Review(props: any) {
         </div>
         <img
           className="absolute w-[20%] top-[41px] right-[92%] rotate-90 z-10"
-          src="/Assets/images/paper-clamp-1.png"
+          src="Assets/images/paper-clamp-1.png"
           alt=""
         />
         <img
           className="absolute w-[18%] top-[60px] -right-[9%] z-10 "
-          src="/Assets/images/paper-clamp-2.png"
+          src="Assets/images/paper-clamp-2.png"
           alt=""
         />
       </div>
@@ -71,11 +71,11 @@ export default function Review(props: any) {
         <img
           className="absolute w-[33%] top-[49%] left-[41%] -translate-x-1/2 -translate-y-1/2 rotate-[4deg] -z-10"
           src={props.imageSave}
-          // src={`/Assets/images/test.png`}
+          // src={`Assets/images/test.png`}
           alt=""
         />
         <img
-          src="/Assets/images/thumbnail.png"
+          src="Assets/images/thumbnail.png"
           alt="chia sẻ ảnh bé lớn khôn khác biệt để nhận quà mẹ nhé"
         />
       </div>
@@ -93,7 +93,7 @@ export default function Review(props: any) {
           Chia sẻ{" "}
           <img
             className="w-[20px]"
-            src="/Assets/images/fb-icon.png"
+            src="Assets/images/fb-icon.png"
             alt="Hút sữa sẵn sàng dinh dưỡng cùng Abbott Grow Gold"
           />
         </button>
