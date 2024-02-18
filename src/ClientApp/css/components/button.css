@@ -1,0 +1,84 @@
+.btn-custom {
+  color: white;
+  padding: 8px 18px;
+  border-radius: 50px;
+  background-color: transparent;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  position: relative;
+  height: fit-content;
+}
+
+.btn-back {
+  background-color: var(--orangle-color);
+  padding-left: 35px;
+  box-shadow: -2px -2px 10px 2px var(--orangle-color);
+}
+.btn-back.btn-back-review {
+  padding-left: 28px;
+}
+.btn-back.btn-back-step {
+  padding-left: 28px;
+}
+.btn-back > div {
+  display: inline-block;
+  border-width: 10px;
+  border-style: solid;
+  border-color: transparent white transparent transparent;
+  position: absolute;
+  left: 0;
+}
+.btn-back > img {
+  position: absolute;
+  left: 9px;
+}
+.btn-next {
+  background-color: var(--red-color);
+  padding-right: 28px;
+  box-shadow: -2px -2px 10px 2px var(--red-color);
+}
+.btn-next.btn-next-review {
+  padding-right: 38px;
+}
+.btn-next.btn-next-step {
+  padding-right: 28px;
+}
+.btn-next > div {
+  display: inline-block;
+  border-width: 10px;
+  border-style: solid;
+  border-color: transparent transparent transparent white;
+  position: absolute;
+  right: 0;
+  /* animation: name 0.5s 4; */
+}
+.btn-next > img {
+  position: absolute;
+  right: 11px;
+}
+
+.btn-back.active,
+.btn-next.active {
+  animation: blink 0.5s 4;
+}
+
+.btn-custom:disabled{
+  background-color: gray !important;
+  color: white !important;
+  box-shadow: -2px -2px 10px 2px gray;
+
+}
+@keyframes blink {
+  from {
+    background-color: white;
+    color: black;
+    box-shadow: -2px -2px 10px 2px white;
+  }
+
+  /* 100% {
+    background-color: inherit;
+    color: inherit;
+  
+  } */
+}

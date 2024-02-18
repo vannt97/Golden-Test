@@ -1,0 +1,181 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+@import "components/fonts.css";
+@import "components/button.css";
+@import "components/notify-modal.css";
+:root {
+  --orangle-color: theme(colors.orange-color);
+  --red-color: theme(colors.red-color);
+  --orangle-dark-color: theme(colors.orange-dark-color);
+  --main-color: theme(colors.main-color);
+  --main-text-color: theme(colors.main-text-color);
+}
+html {
+  font-size: 16px;
+  /* font-size: 1.16vmin; */
+  -webkit-tap-highlight-color: transparent;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  height: 100%;
+}
+
+body {
+  background-color: #fff;
+  display: flex;
+  height: 100%;
+  overflow: hidden;
+  margin: 0%;
+  font-size: 1rem;
+  /* display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow-x: hidden;
+    color: theme(colors.main-text-color); */
+  line-height: 1.5;
+  font-weight: 400;
+  font-family: "Si-Brandon Grotesque";
+  /* background-color: theme(colors.main-color); */
+  background: var(--main-color);
+  color: var(--main-text-color);
+}
+
+#root {
+  width: 100%;
+  height: 100%;
+}
+
+.text-balance {
+  text-wrap: balance;
+}
+
+#canvas-wrapper {
+  will-change: transform;
+  margin: 0 auto;
+  width: 92%;
+
+  /* aspect-ratio: 980/1300; */
+  position: relative;
+  overflow: hidden;
+  border-radius: 0.5rem;
+  -webkit-border-radius: 0.5rem;
+  -moz-border-radius: 0.5rem;
+  -khtml-border-radius: 0.5rem;
+  display: flex;
+  align-items: center;
+}
+#viewportLayout {
+  border-radius: 0.5rem;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  box-sizing: border-box;
+  overflow: hidden;
+  z-index: -1;
+  /* overflow: hidden; */
+  /* position: absolute;
+
+  transform: translateY(-50%);
+  top: 50%;
+  margin-left: -4%; */
+  /* aspect-ratio: 980/1300; */
+
+  aspect-ratio: 9/16;
+  position: relative;
+  width: 100%;
+  /* top: 50%;
+  transform: translateY(-50%); */
+}
+#output_canvas {
+  margin: 0% auto;
+  display: flex;
+  /* background-color: transparent; */
+  box-sizing: border-box;
+  /* transform: rotateY(180deg);
+  -webkit-transform: rotateY(180deg); */
+  /* Safari and Chrome */
+  /* -moz-transform: rotateY(180deg); */
+  position: relative;
+  z-index: -1;
+ 
+  /* Firefox */
+}
+
+#bulletin-board {
+  /* width: 80%; */
+  margin: 0 auto;
+  background: linear-gradient(to bottom, #fce191, #fbd473);
+  border-radius: 1rem;
+  box-shadow: 0px 0px 5px 0px rgba(254, 114, 0, 0.54);
+  margin-bottom: 1rem;
+  position: relative;
+}
+#bulletin-board > div:first-child {
+  box-shadow: inset 2px 2px 2px rgba(255, 255, 255, 0.4),
+    inset -2px 2px 2px rgba(255, 255, 255, 0.4);
+}
+#bulletin-board > div:last-child {
+  box-shadow: inset -2px -2px 2px rgba(255, 255, 255, 0.4),
+    inset 2px -2px 2px rgba(255, 255, 255, 0.4);
+}
+#bulletin-board .board {
+  padding: 10px;
+  background: linear-gradient(to bottom, #fce191, #fbd473);
+  border-radius: 1rem;
+  box-shadow: 0px 0px 10px 0px rgba(254, 114, 0, 0.54);
+  margin-top: -20px;
+  box-shadow: 0px 0px 5px 0px rgba(254, 114, 0, 0.54),
+    inset 2px 2px 2px rgba(255, 131, 21, 0.1),
+    inset -2px 2px 2px rgba(255, 131, 21, 0.1),
+    inset -2px -2px 2px rgba(255, 131, 21, 0.1),
+    inset 2px -2px 2px rgba(255, 131, 21, 0.1);
+  position: relative;
+  z-index: 1;
+}
+#bulletin-board .bg-board {
+  background-image: url("../../Assets/images/pattern-square.png");
+  background-color: #fff0c3;
+}
+
+.animation-image-0 {
+  animation: shake 1s infinite;
+}
+.animation-image-1 {
+  animation: shake 1s infinite reverse;
+}
+.animation-image-2 {
+  animation: shake 1s infinite;
+}
+
+/* animations */
+@keyframes shake {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  50% {
+    transform: rotate(2deg);
+  }
+
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+@media (max-width: 639.98px) {
+  body {
+    background: linear-gradient(
+      to bottom,
+      var(--main-color) 65%,
+      #ffda59 70%
+    );
+  }
+}
+
+/* @media (max-width: 639.98px) and (orientation: landscape) {
+  * {
+    visibility: hidden;
+  }
+} */

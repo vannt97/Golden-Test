@@ -1,0 +1,85 @@
+.notify-modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    width: calc(var(--app-width) - 2rem);
+    background: white;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+    z-index: 105;
+    border-radius: 7px;
+    padding: 2rem 1rem;
+    text-align: center;
+  }
+  
+  .notify-modal__actions {
+    display: flex;
+    justify-content: flex-end;
+    padding: 0 0.5rem;
+  }
+  .notify-modal h2 {
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+  .backdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.75);
+    z-index: 101;
+  }
+  
+  .notify-modal__close {
+    content: "";
+    position: absolute;
+    right: 0;
+    top: -15%;
+    width: 40px;
+    height: 40px;
+    background: url("../../../Assets/images/close-icon.png") no-repeat center;
+    border-radius: unset;
+    font-size: 0;
+    z-index: 51;
+    background-size: contain;
+    cursor: pointer;
+  }
+  
+  .loader-api {
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+  }
+  
+  .loader-api__element {
+    border-radius: 100%;
+    border: 5px solid #cc7b24;
+    margin: calc(5px * 2);
+  }
+  
+  .loader-api__element:nth-child(1) {
+    animation: preloader 0.6s ease-in-out alternate infinite;
+  }
+  
+  .loader-api__element:nth-child(2) {
+    animation: preloader 0.6s ease-in-out alternate 0.2s infinite;
+  }
+  
+  .loader-api__element:nth-child(3) {
+    animation: preloader 0.6s ease-in-out alternate 0.4s infinite;
+  }
+  
+  @keyframes preloader {
+    100% {
+      transform: scale(2);
+    }
+  }
+  

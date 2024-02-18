@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "outDir": "./Builds/",
+    "noImplicitAny": true,
+    "module": "es6",
+    "target": "es5",
+    "downlevelIteration": true,
+    "jsx": "react",
+    "allowJs": true,
+    "moduleResolution": "node",
+    "plugins": [{ "name": "typescript-plugin-css-modules" }]
+  }
+}

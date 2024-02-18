@@ -1,0 +1,24 @@
+@font-face {
+    font-family: "Si-Brandon Grotesque";
+    font-weight: 400;
+    /* src: url("../../fonts/Si-Brandon/SI-BRANDON GROTESQUE REGULAR.OTF"); */
+    src: url("../../../Assets/Fonts/SI-BRANDON\ GROTESQUE\ REGULAR.OTF");
+  
+}
+  @font-face {
+    font-family: "Si-Brandon Grotesque";
+    font-weight: 500;
+    src: url("../../../Assets/Fonts/SI-BRANDON\ GROTESQUE\ MEDIUM.OTF");
+  }
+  @font-face {
+    font-family: "Si-Brandon Grotesque";
+    font-weight: 700;
+    src: url("../../../Assets/Fonts/SI-BRANDON\ GROTESQUE\ BOLD.OTF");
+
+  }
+  @font-face {
+    font-family: "Si-Brandon Grotesque";
+    font-weight: 900;
+    src: url("../../../Assets/Fonts/SI-BRANDON\ GROTESQUE\ BLACK.OTF");
+  }
+  
